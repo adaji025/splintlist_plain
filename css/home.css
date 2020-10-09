@@ -1,0 +1,315 @@
+/*navbar starts */
+.navbar {
+    font-size: 25px;
+    margin: 0 0 0 40px;
+    font-weight: bold;
+    color: white;
+}
+#logo {
+    width: 80px;
+    height: 80px;
+}
+img#rectangle_9 {
+    height: 80px;
+    
+}
+#contact_us {
+    margin: 0 40px 0 50px;
+    background-color: #0864C9;
+    padding: 20px 45px 20px 45px;
+    border-radius: 5px;
+}
+/*navbar starts */
+section span {
+    display: block;
+}
+@media only screen and ( max-width:1024px) {
+    section.first {
+        margin: 40px 0 0 0;
+        color: white;
+        height: 800px;
+    }}
+    @media only screen and ( min-width: 1024px ) {
+        section.first {
+            margin: 40px 0 0 0;
+            color: white;
+            height: 1100px;
+        }
+    }
+.opacity {
+    opacity: 50%;
+}
+.button span {
+    display: inline;
+}
+div.text-center.button span a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin: 60px 10px 40px 10px;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+div.text-center.button span a:hover {
+    background: #0864C9;
+}
+.amazon {
+    margin-top: 5px;
+}
+.colaboratorsLogos {
+    display: flex;
+    justify-content: center;
+}
+
+/*media query*/
+
+@media only screen and ( max-width: 1024px) {
+    .colaboratorsLogos span img {
+        width: 50px;
+        margin-left: 60px;
+        text-align: center;
+    }}
+    @media only screen and ( min-width: 1024px ) {
+        .colaboratorsLogos span img {
+        width: 100px;
+        margin-left: 70px;
+        text-align: center;
+    }}
+    @media only screen and ( max-width: 1024px) {
+        .container.Rectangle {
+            background-color: #ECF4FC;
+            display: flex;
+            width: 600px;
+            height: 100px;
+            margin-top: 80px;
+        }
+        #logo1 {
+            width: 80px;
+            height: 80px;
+            margin-top: 10px;
+        }
+        .container.Rectangle #launch {
+            font-size: 20px;
+            margin: 40px 0 0 30px;
+        }        
+        div.container.Rectangle p span#aim {
+            font-size: 10px;
+            font-weight: bold;
+            margin-left: 40px;
+            margin-top: 30px;
+            display: block;
+        }
+        #manage{
+            font-size: 7px;
+            margin-left: 40px;
+            margin-top: -10px;
+            display: block;
+        }
+        
+        .container.Rectangle span a {
+            background:  #0864C9;
+            color: white;
+            padding: 10px 20px 10px 20px;
+            font-size: 10px;
+            margin-left:50px;
+            display: block;
+            margin-top: 40px;
+        }
+    }
+    @media only screen and ( min-width: 1024px ) {
+        .container.Rectangle {
+            background-color: #ECF4FC;
+            display: flex;
+            width: 1000px;
+            height: 140px;
+            margin-top: 80px;
+        }
+        #logo1 {
+            width: 80px;
+            height: 80px;
+            margin-top: 10px;
+        }
+        .container.Rectangle #launch {
+            font-size: 20px;
+            margin: 40px 0 0 30px;
+        }        
+        #aim {
+            font-size: 25px;
+            font-weight: bold;
+            margin-left: 40px;
+            margin-top: 30px;
+            display: block;
+        }
+        #manage{
+            font-size: 18px;
+            margin-left: 40px;
+            display: block;
+            margin-top: -15px;
+        }
+        
+        .container.Rectangle span a {
+            background:  #0864C9;
+            color: white;
+            padding: 15px 20px 15px 20px;
+            margin: 40px 0 0 90px;
+            display: block;
+            
+        }
+    }
+    #helping_founders {
+       margin-top: 80px; 
+    }
+    #helping_founders p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+div.col-md-6 div a {
+    border: 1px solid blue;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.second, .third {
+    margin-top: 100px;
+}
+.have_an_idea {
+    margin-top: 100px;
+}
+.have_an_idea #p1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.have_an_idea a {
+    border: 1px solid blue;
+    padding: 15px 20px 15px 20px;
+    margin-top: 40px;
+    background-color: #0864C9; 
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+    .twoDiv{
+        display: none;
+    }
+    footer {
+        position: fixed-bottom;
+        margin-top: 200px;
+        background: #ECF4FC;
+        display: inline-block;
+        height: 600px;
+    }
+    .card span a {
+        margin-bottom: 30px;
+    }
+
+    footer p.text-center {
+        margin-top: 40px;
+        align-items: center;
+        position: absolue;
+    }
+    footer button {
+        margin-left: 400px;
+        padding: 15px 40px 15px 40px;
+        background-color:#0864C9; ;
+    }
+    hr {
+        margin:0 100px 0 100px;
+    }
+    .col-md-4 span {
+        display: block;
+    }
+    .col-md-4 ul li {
+        list-style-type: none;
+    }
+    .col-md-4 ul {
+        margin-top: 30px;
+    }
+    .container.last  {
+        
+    }
+    .container.last p {
+        font-weight: bold;
+        float: right;
+        font-size: 25px;
+    }
+    .container.last p span {
+        display:block;
+    }
+    .divTwo_mobile {
+        display: none;
+    }
+} 
+.twoDiv {
+    align-items: center;
+    margin-top: 70px;
+}
+.card {
+    height: 350px;
+}
+.card span{
+    display: block;
+}
+.card p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.card h2 {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.card span a {
+    border: 1px solid blue;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: absolute;
+    display: inline-block;
+}
+.container.last  {
+    margin-top: 80px;
+    position: absolute;
+}
+.container.last p {
+    font-weight: bold;
+    float: right;
+    font-size: 25px;
+}
+.container.last p span {
+    display:block;
+}
+
+@media only screen and ( min-width: 1024px ) {
+    footer {
+        position: fixed-bottom;
+        margin-top: 200px;
+        background: #ECF4FC;
+        display: inline-block;
+        height: 400px;
+    }
+    footer p.text-center {
+        margin-top: 40px;
+        align-items: center;
+    }
+    footer button {
+        margin-left: 900px;
+        padding: 15px 40px 15px 40px;
+        background-color:#0864C9; ;
+    }
+    hr {
+        margin:0 100px 0 100px;
+    }
+    .col-md-4 span {
+        display: block;
+    }
+    .col-md-4 ul li {
+        list-style-type: none;
+    }
+    .col-md-4 ul {
+        margin-top: 30px;
+    }
+    .divTwo_mobile {
+        display: none;
+    }
+}
